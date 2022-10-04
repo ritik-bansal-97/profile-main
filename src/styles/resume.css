@@ -1,0 +1,96 @@
+.resume{
+    position: absolute;
+    background-color: white;
+    width: 1200px;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90%;
+    top: 8%;
+    overflow: auto;
+}
+.profilePicContainer{
+    padding: 3% 5%;
+    display: flex;
+}
+.profilePic{
+    width: 25%;
+    max-width: 80px;
+    
+}
+.profileInfo{
+    margin-left: 3%;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: black;
+}
+.designation{
+    font-size: 1.2rem;
+}
+.mt-0{
+    margin-top: 0; 
+}
+.name{
+    margin-bottom: 0px;
+}
+.displayFlex{
+    display: flex;
+}
+.leftContainer{
+    flex: 6;
+    margin-left: 5%;
+}
+.rightContainer{
+    flex: 1;
+    margin-right: 5%;
+    margin-left: 5%;
+    max-width: 25%;
+}
+.heading{
+    font-size: 1.4rem;
+    margin-bottom: 0px;
+}
+.paragraphFont{
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0px;
+    overflow-wrap: break-word;
+}
+@media screen and (max-width: 700px) {
+    .heading{
+      font-size: 0.9rem;
+    }
+    .paragraphFont{
+        font-size: 0.7rem;
+    }
+    .profilePic{
+        width: 20%;
+        max-width: 65px;
+    }
+    .profileInfo{
+        font-size: 1.1rem;
+    }
+    .designation{
+        font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .heading{
+      font-size: 0.7rem;
+    }
+    .paragraphFont{
+        font-size: 0.5rem;
+    }
+    .profilePic{
+        width: 20%;
+        max-width: 65px;
+    }
+    .profileInfo{
+        font-size: 0.9rem;
+    }
+    .designation{
+        font-size: 0.7rem;
+    }
+  }
