@@ -5,10 +5,12 @@
   "main": "index.js",
   "homepage": "https://ritik-bansal-97.github.io/profile-main/",
   "scripts": {
-    "start": "webpack-dev-server --hot --open",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject":"react-scripts eject"
   },
   "keywords": [],
   "author": "",
